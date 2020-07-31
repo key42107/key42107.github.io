@@ -1,0 +1,17 @@
+
+
+.sec2 .text-div{
+    background-color: #7B0639;
+    color: #FFF;
+}
+.sec2 .text-div::before {
+    content: "";
+    background: #7b0639;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -25px;
+    bottom: 0;
+    width: 50px;
+    transform: skew(-10deg);
+}
